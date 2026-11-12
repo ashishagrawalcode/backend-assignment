@@ -1,0 +1,26 @@
+{
+  "name": "backend-tutorial-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beginner Node.js, Express and MongoDB backend project for learning CRUD and authentication",
+  "type": "module",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js",
+    "check": "node --check backend/src/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "mongoose": "^8.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
